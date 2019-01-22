@@ -13,14 +13,14 @@
 		<a href="/"><button id="all-articles">All Articles</button></a>
 		<a href="/saved"><button id="saved-articles">Saved Articles</button></a>
 		<form action="/scrape" method="GET">
-			<button type="submit" id="refresh-articles">Scrape For Newest Articles</button>
+			<button type="submit" id="refresh-articles">Scrape For Articles</button>
 		</form>
 		<form action="/search" method="POST">
 			<button type="submit" id="search-submit">Submit</button>
 			<input type="text" name="search" placeholder="Search for articles" id="search-input">
 		</form>
 	</header>
-	<img id="cover" src="/assets/images/cover.jpg" height="500px">
+	<img id="cover" src="/assets/images/download.png" height="500px">
 	<div id="container">
 		{{{ body }}}
 	</div>
@@ -42,7 +42,7 @@
 		</div>
 	</div>
 	
-	<footer>© Copyright Rupali Meshram</footer>
+	
 	<script src="/assets/javascript/app.js"></script>
 </body>
 </html>
